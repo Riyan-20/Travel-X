@@ -1,0 +1,80 @@
+/* HEADER CSS  */
+.header
+{
+    display: flex ; 
+    padding: 2vw 7vw;
+    margin-top: -50vw;
+}
+
+.logo
+{
+   width: 25vw;
+   margin-top: 0.5vw;
+}
+
+#logo 
+{
+    margin-top: -5.5vw;
+    margin-left: -12vw;
+    width: 80%;
+}
+
+nav 
+{
+    display: flex ; 
+    float: right;
+    flex-direction: column;
+    text-align: center;
+    width: 53vw;
+}
+
+nav ul a
+{
+    display:  inline-block;
+    margin: 0 4vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: -7.8vw;
+  }
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  .search-container button {
+    padding: 8px ;
+    background-color: #46c24a;
+    
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+  .search-container button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  .search-container button:hover {
+    background-color: #398d3d;
+  }
+  

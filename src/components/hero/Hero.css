@@ -1,0 +1,82 @@
+.hero {
+    
+    height: 100vh; /* Set the height of the hero section to 100% viewport height */
+    
+  }
+  
+  .hero img {
+    
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+
+
+
+
+  .leftSideHero
+  {
+      width: 70%;
+      margin-top: -36vw;
+      text-align: CENTER;
+      transform: translate(0px, -1%);
+  }
+  
+  .leftSideHero .mainText 
+  {
+  text-align: LEFT;
+  line-height: 25%;
+  }
+  
+  .leftSideHero .mainText h1
+  {
+  font-size: 5.5vw;
+  margin-left: 8.2vw;
+  color: rgb(190, 255, 233);
+  }
+  
+  .leftSideHero .mainText h2
+  {
+    font-size: 5.5vw;
+    margin-top: -3.7vw;
+    margin-left: 31.7vw;
+    color: aliceblue;
+  }
+  
+  .leftSideHero .captionText h3
+  {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2vw;
+    color: aliceblue;
+  }
+
+  
+.GetStartedButton
+{
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+
+.GetStartedButton button
+{
+    width: 22%;
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    padding: 1vw;
+    font-weight: bold;
+    border-radius: 20vw;
+    border-style: none;
+    background-color: #46c24a;
+    color: rgb(245, 237, 237);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover
+{
+    background-color: #398d3d;
+    
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+.section2 {
+    display: flex;
+    flex-direction: column; /* Add this line to change the flex direction */
+    background: white;
+    height: 50vw;
+    margin-bottom: 10vw;
+  }
+  
+  .section2 .uppersection {
+    display: flex;
+    background: #f3f8ff;
+    height: 40vw;
+    margin-bottom: 10vw;
+    width: 98.7vw;
+    margin-top: -4vw;
+  }
+  
+  /* Styles for the big image and image details */
+  .big-image {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .big-image img {
+    margin-left: 48vw;
+    height: 20vw;
+    width: 33vw;
+    margin-top: 2vw;
+    border: 2px solid #ccc;
+    border-radius: 2vw;
+  }
+  
+  .image-details {
+    flex: 1 1;
+    padding: 20px;  
+    margin-top: -20vw;
+    margin-left: -60vw;
+    box-sizing: border-box;
+  }
+  
+  .image-details h3{
+    font-weight: normal;
+    margin-left: 0vw;
+  }
+
+  .image-details h4{
+    font-weight: normal;
+  }
+
+  .image-details h5{
+    font-weight: normal;
+  }
+
+    
+  /* Styles for the image selection */
+  .image-selection {
+    display: flex;
+    justify-content: center; /* Change to "center" to center the small images */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: -24vw;
+  }
+  
+  .small-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 1.6vw;
+  }
+  
+  /* Style for the selected image */
+  .small-image.selected {
+    border-color: #007bff; /* Customize the border color for the selected image */
+  }
+  
+  .Book_Button button {
+    width: 12vw;
+    font-size: 1.8vw;
+    margin-left: -177vw;
+    margin-top: 29vw;
+    padding: 1.4vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    border-style: none;
+    background-color: #46c24a;
+    color: rgb(245, 237, 237);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .Book_Button button:hover {
+    background-color: #398d3d;
+    cursor: pointer;
+}

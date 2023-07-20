@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0vw;
+    height: 26vw;
+    background-color: #1b5fbd;
+    padding: 20px;
+  }
+  .newsletter {
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .newsletter h1 {   
+    color: #fff;
+    font-size: 3vw;
+    margin-top: 1vw;
+  }
+  .newsletter h2 {   
+    color: #fff;
+    font-size: 1.7vw;
+    margin-top: -1vw;
+    font-weight: normal;
+    font-family: unset;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+  }
+  
+  input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    width: 250px;
+  }
+  
+  input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #ffee61;
+    color: #404142;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+   }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #d5c000;
+  }
+
+  .footer .logo
+  {
+    width: 25vw;
+    margin-top: 9vw;
+    margin-left: -64vw;
+    height: 1vw;
+  }
+  
+  .footer h3{
+    margin-top: -4.8vw;
+    font-family: -webkit-body;
+    FONT-WEIGHT: 500;
+    font-size: 1.8vw;
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -13px;
+  }
+  
+  .icon-link {
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add hover effect for icons (optional) */
+  .icon-link:hover {
+    color: #007bff;
+  }
+
+  .footer h4{
+    margin-top: -2vw;
+    margin-left: 74vw;
+    font-family: -webkit-body;
+    FONT-WEIGHT: 500;
+    font-size: 1.5vw;
+    color: white;
+  }
