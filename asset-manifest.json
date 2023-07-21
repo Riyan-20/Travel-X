@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Travel-X/static/css/main.20587098.css",
+    "main.js": "/Travel-X/static/js/main.8494be51.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Travel-X/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img.png": "/Travel-X/static/media/img.b3911adff809f5fa8821.png",
+    "static/media/img2.jpg": "/Travel-X/static/media/img2.192c64544431391ba569.jpg",
+    "static/media/img4.jpg": "/Travel-X/static/media/img4.42b344bebebb8a03d192.jpg",
+    "static/media/img3.jpg": "/Travel-X/static/media/img3.8b34ab11ee988669a806.jpg",
+    "static/media/img1.jpg": "/Travel-X/static/media/img1.7b7dd38146938729158d.jpg",
+    "static/media/search_img.png": "/Travel-X/static/media/search_img.37371e0fe391fbd11b7e.png",
+    "index.html": "/Travel-X/index.html",
+    "main.20587098.css.map": "/Travel-X/static/css/main.20587098.css.map",
+    "main.8494be51.js.map": "/Travel-X/static/js/main.8494be51.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Travel-X/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20587098.css",
+    "static/js/main.8494be51.js"
+  ]
+}
